@@ -125,6 +125,16 @@ nav a:first-child{
 	border: 1px solid #ddd;
 }
 
+.main-section2 {
+	background: #fff;
+	padding: 30px;
+	margin: 0 0 40px 0;
+	width: 100%;
+	width: 650px;
+	float: left;
+	border: 1px solid #ddd;
+}
+
 .auth-image {
 	width: 200px;
 	height: auto;
@@ -256,12 +266,22 @@ a:hover {
 	width: 100%;
 	height: auto;
 	margin-bottom: 10px;
-
 }
+
 .main-section {
 	width: 55%;
 	padding: 20px 20px 30px 30px;
 }
+
+.main-section2 {
+	width: 60%;
+	padding: 30px 30px 30px 30px;
+}
+
+.work {
+	width: 100%
+}
+
 .sidebar {
 	width: 270px;
 	height: 187px;
@@ -281,6 +301,11 @@ a:hover {
 @media screen and (max-width: 768px) {
 
 .main-section {
+	width: 100%;
+	margin: 15px 15px 15px 0;
+}
+
+.main-section2 {
 	width: 100%;
 	margin: 15px 15px 15px 0;
 }
@@ -337,6 +362,9 @@ nav {
 }
 
 .main-section {
+	margin-top: 40px;
+}
+.main-section2 {
 	margin-top: 40px;
 }
 
