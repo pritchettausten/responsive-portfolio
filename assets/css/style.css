@@ -73,7 +73,7 @@ h2, h3 {
 	color: #fff;
 	overflow: auto;
 	border-bottom: 2px solid #ccc;
-	position: fixed;
+	position: static;
 	width: 100%;
 }
 
@@ -119,7 +119,7 @@ nav a:first-child{
 .main-section {
 	background: #fff;
 	padding: 30px;
-	margin: 140px 0 40px 0;
+	margin: 0px 0 40px 0;
 	width: 100%;
 	width: 650px;
 	float: left;
@@ -152,7 +152,7 @@ nav a:first-child{
 	width: 270px;
 	float: right;
 	border: 1px solid #ddd;
-	margin-top: 140px;
+	margin-top: 0px;
 	margin-bottom: 20px;
 }
 
@@ -275,13 +275,13 @@ a:hover {
 .main-section {
 	width: 55%;
 	padding: 20px 20px 30px 30px;
-	margin-top: 140px;
+	margin-top: 0px;
 }
 
 .main-section2 {
 	width: 55%;
 	padding: 30px 30px 30px 30px;
-	margin-top: 140px;
+	margin-top: 0px;
 }
 
 .work {
@@ -302,6 +302,7 @@ a:hover {
 #masthead {
 	padding-right: 50px;
 	padding-left: 50px;
+	position: static;
 }
 
 nav {
@@ -313,12 +314,12 @@ nav {
 
 .main-section {
 	width: 100%;
-	margin: 140px 15px 15px 0;
+	margin: 0px 15px 15px 0;
 }
 
 .main-section2 {
 	width: 100%;
-	margin: 140px 15px 15px 0;
+	margin: 0px 15px 15px 0;
 }
 
 .sidebar {
@@ -339,6 +340,7 @@ nav {
 
 #masthead {
 	padding: 0;
+	position: static;
 }
 
 #logo {
