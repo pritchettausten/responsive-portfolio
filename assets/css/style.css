@@ -98,6 +98,7 @@ nav {
 
 nav a {
 	font-family: 'Cinzel', serif;
+	font-size: 14px;
 	color: #999;
 	text-decoration: none;
 	margin-left: 15px;
@@ -256,12 +257,13 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+@media screen and (min-width: 980px) {
 a:hover {
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 	color: #9a342a;
 }
-
+}
 @media screen and (max-width: 980px) {
 
 .photo1{
@@ -300,6 +302,10 @@ a:hover {
 #masthead {
 	padding-right: 50px;
 	padding-left: 50px;
+}
+
+nav {
+	float: right;
 }
 }
 
@@ -342,8 +348,9 @@ a:hover {
 
 nav {
 	width: 50%;
-	font-size: 16px;
+	font-size: 14px;
 	float: right;
+	padding-left: 30px;
 }
 }
 
@@ -375,10 +382,11 @@ nav {
 
 nav {
 	width: 100%;
-	font-size: 15px;
+	font-size: 14px;
 	text-align: center;
 	margin: 5px 0 5px 0;
     padding-right: 28px;
+    padding-left: 0px;
 }
 }
 
