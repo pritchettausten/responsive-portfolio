@@ -112,17 +112,18 @@ nav a:first-child{
 }
 
 #main-container {
-	padding-top: 130px;
+	padding-top: 0px;
 }
 
 .main-section {
 	background: #fff;
 	padding: 30px;
-	margin: 0 0 40px 0;
+	margin: 140px 0 40px 0;
 	width: 100%;
 	width: 650px;
 	float: left;
 	border: 1px solid #ddd;
+
 }
 
 .main-section2 {
@@ -150,6 +151,7 @@ nav a:first-child{
 	width: 270px;
 	float: right;
 	border: 1px solid #ddd;
+	margin-top: 140px;
 	margin-bottom: 20px;
 }
 
@@ -271,11 +273,13 @@ a:hover {
 .main-section {
 	width: 55%;
 	padding: 20px 20px 30px 30px;
+	margin-top: 140px;
 }
 
 .main-section2 {
-	width: 60%;
+	width: 55%;
 	padding: 30px 30px 30px 30px;
+	margin-top: 140px;
 }
 
 .work {
@@ -288,6 +292,7 @@ a:hover {
 }
 
 #main-container {
+	margin-top: 0px;
 	width: 90%;
 	height: 100%;
 }
@@ -302,12 +307,12 @@ a:hover {
 
 .main-section {
 	width: 100%;
-	margin: 15px 15px 15px 0;
+	margin: 140px 15px 15px 0;
 }
 
 .main-section2 {
 	width: 100%;
-	margin: 15px 15px 15px 0;
+	margin: 140px 15px 15px 0;
 }
 
 .sidebar {
@@ -343,6 +348,12 @@ nav {
 }
 
 @media screen and (max-width: 640px) {
+.main-section {
+	margin-top: 0px;
+}
+.main-section {
+	margin-top: 0px;
+}
 .photo1{
 	width: 100%;
 	height: auto;
@@ -356,16 +367,10 @@ nav {
 }
 
 #masthead {
+	position: static;
 	width: 100%;
 	padding-right: 0;
 	padding-left: 0;
-}
-
-.main-section {
-	margin-top: 40px;
-}
-.main-section2 {
-	margin-top: 40px;
 }
 
 nav {
